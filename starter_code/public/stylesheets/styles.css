@@ -1,8 +1,65 @@
-/*
-white: #F7F9F9;
-light-blue: #2081C3;
-dark-blue: #0A2C42;
-grey: rgba(145, 145, 145, 0.481);
-font-family: Arial, Helvetica, sans-serif
-*/
+* {
+  font-family: Arial, Helvetica, sans-serif;
+  text-decoration: none;
+  margin: 0 auto;
+}
+
+h1 {
+  margin: 2%;
+}
+
+nav {
+padding-left: 30px;
+padding-top: 20px;
+color: #F7F9F9;
+background-color:  #2081C3;
+height: 6vh;
+box-shadow: 0 0 12px 0 gray;
+}
+
+.nav {
+  color: #F7F9F9;
+  margin:10px;
+}
+
+
+footer {
+  background-color: #0A2C42;
+  color: #F7F9F9;
+  height: 8vh;
+  }
+
+.section1 {
+  background-color: rgba(145, 145, 145, 0.481);
+  height: 80%;
+}
+
+.index-container > img{
+  display: flex;
+  width:14%;
+  padding-top:130px;
+  margin-bottom: 50px;
+}
+
+.button-body1 , .button-body2 {
+  background-color:  #2081C3;
+  color: #F7F9F9;
+  padding: 10px;
+  border-radius: 0.5em;
+  display:flex;
+  margin-top: 30px;
+}
+
+.beer-image {
+  width:100px;
+}
+
+.beer-show {
+  padding: 2%;
+  margin: 0 5% 5% 5%;
+}
+
+#random {
+  margin-bottom: 5%;
+}
   
